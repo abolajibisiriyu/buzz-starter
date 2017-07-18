@@ -29,6 +29,6 @@ io.on('connection', function(socket) {
 });
 
 
-server.listen(9999, function() {
-    console.log('App running at http://localost:9999');
+server.listen(9900, function() {
+    console.log('App running at http://localhost:9900');
 });
